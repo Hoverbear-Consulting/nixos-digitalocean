@@ -1,3 +1,5 @@
+![Sammy & Snowflake](./img/nixos-digitalocean.svg)
+
 # nixos-digitalocean
 
 This is a minimal NixOS image builder for DigitalOcean.
@@ -25,3 +27,7 @@ To upload via `s3cmd`:
 ```bash
 ./upload.sh "s3://hoverbear/nixos-dev.qcow2.gz"
 ```
+
+# Hosted Copies
+
+@hoverbear tends to host a live copy on https://www.hoverbear.consulting/nixos-dev.qcow2.gz.
